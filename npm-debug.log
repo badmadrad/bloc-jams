@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'chai@2.8' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 warn package.json ansi-color@0.2.1 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+6 warn package.json express-namespace@0.1.1 No repository field.
+7 warn package.json karma-mocha@0.1.10 No README data
+8 warn package.json express-resource@1.0.0 No repository field.
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'chai@2.8', null ]
+11 verbose cache add name=undefined spec="chai@2.8" args=["chai@2.8",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'chai@2.8',
+12 verbose parsed url   path: 'chai@2.8',
+12 verbose parsed url   href: 'chai@2.8' }
+13 verbose cache add name="chai" spec="2.8" args=["chai","2.8"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '2.8',
+14 verbose parsed url   path: '2.8',
+14 verbose parsed url   href: '2.8' }
+15 verbose addNamed [ 'chai', '2.8' ]
+16 verbose addNamed [ null, '>=2.8.0-0 <2.9.0-0' ]
+17 silly lockFile 38ae2387-chai-2-8 chai@2.8
+18 verbose lock chai@2.8 /home/mario/.npm/38ae2387-chai-2-8.lock
+19 silly addNameRange { name: 'chai', range: '>=2.8.0-0 <2.9.0-0', hasData: false }
+20 verbose request where is /chai
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 0c45d94b7f02ca22
+23 verbose url raw /chai
+24 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+25 verbose url resolved https://registry.npmjs.org/chai
+26 verbose request where is https://registry.npmjs.org/chai
+27 info trying registry request attempt 1 at 23:20:05
+28 verbose etag "OTI4TJUZ19WVZ6V8D3NDW5IT"
+29 http GET https://registry.npmjs.org/chai
+30 http 304 https://registry.npmjs.org/chai
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Fri, 05 Jun 2015 04:20:05 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     etag: '"OTI4TJUZ19WVZ6V8D3NDW5IT"',
+31 silly registry.get     age: '31',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-ord1721-ORD',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '2',
+31 silly registry.get     'x-timer': 'S1433478005.539024,VS0,VE0',
+31 silly registry.get     vary: 'Accept' } ]
+32 verbose etag https://registry.npmjs.org/chai from cache
+33 silly addNameRange number 2 { name: 'chai', range: '>=2.8.0-0 <2.9.0-0', hasData: true }
+34 silly addNameRange versions [ 'chai',
+34 silly addNameRange   [ '0.0.1',
+34 silly addNameRange     '0.0.2',
+34 silly addNameRange     '0.1.0',
+34 silly addNameRange     '0.1.1',
+34 silly addNameRange     '0.1.2',
+34 silly addNameRange     '0.1.3',
+34 silly addNameRange     '0.1.4',
+34 silly addNameRange     '0.1.5',
+34 silly addNameRange     '0.1.6',
+34 silly addNameRange     '0.1.7',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.2.2',
+34 silly addNameRange     '0.2.3',
+34 silly addNameRange     '0.2.4',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.3.1',
+34 silly addNameRange     '0.3.2',
+34 silly addNameRange     '0.3.3',
+34 silly addNameRange     '0.3.4',
+34 silly addNameRange     '0.4.0',
+34 silly addNameRange     '0.4.1',
+34 silly addNameRange     '0.4.2',
+34 silly addNameRange     '0.5.0',
+34 silly addNameRange     '0.5.1',
+34 silly addNameRange     '0.5.2',
+34 silly addNameRange     '0.5.3',
+34 silly addNameRange     '1.0.0',
+34 silly addNameRange     '1.0.1',
+34 silly addNameRange     '1.0.2',
+34 silly addNameRange     '1.0.3',
+34 silly addNameRange     '1.0.4',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.1.1',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.3.0',
+34 silly addNameRange     '1.4.0',
+34 silly addNameRange     '1.4.1',
+34 silly addNameRange     '1.4.2',
+34 silly addNameRange     '1.5.0',
+34 silly addNameRange     '1.6.0',
+34 silly addNameRange     '1.6.1',
+34 silly addNameRange     '1.7.0',
+34 silly addNameRange     '1.7.1',
+34 silly addNameRange     '1.7.2',
+34 silly addNameRange     '1.8.0',
+34 silly addNameRange     '1.8.1',
+34 silly addNameRange     '1.9.0',
+34 silly addNameRange     '1.9.1',
+34 silly addNameRange     '1.9.2',
+34 silly addNameRange     '1.10.0',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '2.1.0',
+34 silly addNameRange     '2.1.1',
+34 silly addNameRange     '2.1.2',
+34 silly addNameRange     '2.2.0',
+34 silly addNameRange     '2.3.0',
+34 silly addNameRange     '3.0.0' ] ]
+35 silly lockFile 38ae2387-chai-2-8 chai@2.8
+36 silly lockFile 38ae2387-chai-2-8 chai@2.8
+37 error notarget No compatible version found: chai@'>=2.8.0-0 <2.9.0-0'
+37 error notarget Valid install targets:
+37 error notarget ["0.0.1","0.0.2","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.4.0","0.4.1","0.4.2","0.5.0","0.5.1","0.5.2","0.5.3","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.1.0","1.1.1","1.2.0","1.3.0","1.4.0","1.4.1","1.4.2","1.5.0","1.6.0","1.6.1","1.7.0","1.7.1","1.7.2","1.8.0","1.8.1","1.9.0","1.9.1","1.9.2","1.10.0","2.0.0","2.1.0","2.1.1","2.1.2","2.2.0","2.3.0","3.0.0"]
+37 error notarget
+37 error notarget This is most likely not a problem with npm itself.
+37 error notarget In most cases you or one of your dependencies are requesting
+37 error notarget a package version that doesn't exist.
+38 error System Linux 3.19.8-031908-generic
+39 error command "/usr/bin/node" "/usr/bin/npm" "install" "chai@2.8"
+40 error cwd /media/mario/Windows/Users/Mario/Shared/OneDrive/Repos/bloc/bloc-jams
+41 error node -v v0.10.38
+42 error npm -v 1.4.28
+43 error code ETARGET
+44 verbose exit [ 1, true ]
